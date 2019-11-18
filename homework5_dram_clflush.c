@@ -8,7 +8,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <xmmintrin.h>
-
+//每次调用前都清除变量所在的cache_line
 int main() {
     int i, sum;
     sum = 0;

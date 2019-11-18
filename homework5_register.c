@@ -1,4 +1,5 @@
 #include <stdio.h>
+//注意regiter只是建议分配寄存器，但不是强制。所以需要使用gcc
 int main(){
 	register int i,sum;
 	sum=0;

@@ -1,14 +1,5 @@
-#include <xmmintrin.h>
 #include <stdio.h>
-#include <stdlib.h>
-#include <unistd.h>
-#include <sys/mman.h>
-#include <sys/time.h>
-#include <sys/types.h>
-#include <sys/stat.h>
-#include <fcntl.h>
-#include <math.h>
-
+//和register不同点只在于没有register修饰符，不过还是需要查看汇编文件看是否优化成寄存器中运行。
 int main(){
 	int i,sum;
 	sum=0;
