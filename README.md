@@ -28,3 +28,25 @@ README
 #### 代码
 * [使用pthread实现](https://github.com/Wanderingqiu/os_homework/blob/master/homework4_pthread.c)
 
+作业五
+-----------
+#### 要求
+* 分别用三种方式实现下列代码：
+```c
+int i, sum;  
+sum=0;  
+for(i=0; i<10000000; i+=4) {  
+sum ++;  
+sum ++;  
+sum ++;  
+sum ++;  
+}  
+```
+* 把i，sum放到寄存器中执行。每次累加时从寄存器读取数据。
+* 把i，sum放到内存中执行，能够被cache。读写均在cache中完成。
+* 把i，sum放到内存中执行，不能够被cache。读写均在DRAM中完成。
+#### 代码
+* [使用register实现](https://github.com/Wanderingqiu/os_homework/blob/master/homework5_register.c)
+* [使用cache实现](https://github.com/Wanderingqiu/os_homework/blob/master/homework5_cache.c)
+* [使用dram实现(mm_clflush)](https://github.com/Wanderingqiu/os_homework/blob/master/homework5_dram_clflush.c)
+* [使用dram实现(movnti)](https://github.com/Wanderingqiu/os_homework/blob/master/homework5_dram_movnti.s)
