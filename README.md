@@ -7,6 +7,7 @@ README
 * [作业四](#作业四)
 * [作业五](#作业五)
 * [作业六](#作业六)
+* [作业七](#作业七)
 ****
 作业三
 -----------
@@ -71,3 +72,11 @@ sum ++;
 
 #### 代码
 * [使用golang实现](https://github.com/Wanderingqiu/golang/tree/master/socket%20RPC)
+
+作业七
+-----------
+#### 要求
+* 使用spark编写程序
+#### 代码
+* [spark的word统计]
+* [spark的机器学习]
