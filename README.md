@@ -78,5 +78,5 @@ sum ++;
 #### 要求
 * 使用spark编写程序
 #### 代码
-* [spark的word统计]
-* [spark的机器学习]
+* [spark的word统计](https://github.com/Wanderingqiu/DOS_homework/blob/master/homework7/spark_wordcount.py)
+* [spark的机器学习](https://github.com/Wanderingqiu/DOS_homework/blob/master/homework7/spark_ml.py)
